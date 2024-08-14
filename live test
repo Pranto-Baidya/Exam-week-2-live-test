@@ -48,7 +48,7 @@ class Home extends StatelessWidget{
           children: [
             Text('Flutter Text Styling',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.black),),
             SizedBox(height: 15,),
-            Text('Experiments with text styles',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w300,color: Colors.black,fontStyle: FontStyle.italic),),
+            Text('Experiment with text styles',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w300,color: Colors.black,fontStyle: FontStyle.italic),),
             SizedBox(height: 15,),
             TextButton(
                 onPressed: (){
